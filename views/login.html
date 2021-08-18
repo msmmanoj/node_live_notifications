@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta
+            name="description"
+            content="Web site created using EJS Templates ane NodeJS"
+    />
+    <link href="/css/form.css" rel="stylesheet"/>
+</head>
+<body>
+    <form class="form" action="/login" method="POST">
+        <div class="form-control">
+            <label for="name">
+                Name:
+                <input type="text" name="name"  id="name"/>
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="password">
+                Password :
+                <input type="password" name="password" id="password"/>
+            </label>
+        </div>
+        <button type="submit" class="btn">Login</button>
+    </form>
+</body>
